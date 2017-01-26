@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.shuffle": "^4.2.0",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.27",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "performance-now": "^2.0.0"
+  }
+}

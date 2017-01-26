@@ -1,0 +1,98 @@
+{
+  "additionalInfo": {
+    "address": {
+      "country": "{{address.country}}",
+      "postalCode": "{{address.zipCode}}",
+      "streetAddress": "{{address.streetAddress}}",
+      "yahooCode": {
+        "city": "{{address.city}}",
+        "country": "{{address.country}}",
+        "county": "{{address.county}}",
+        "street": "{{address.streetAddress}}"
+      }
+    },
+    "email": "{{internet.email}}",
+    "mobile": "{{phone.phoneNumber}}",
+    "tel": "{{phone.phoneNumber}}"
+  },
+  "birthday": {
+    "day": 0,
+    "month": 0,
+    "year": 0
+  },
+  "createdAt": "{{date.past}}",
+  "createdBy": "{{random.uuid}}",
+  "createdOn": "{{custom.timestamp}}",
+  "email": "{{internet.email}}",
+  "gender": "{{custom.binary}}",
+  "group": [
+    {
+      "expireDate": "{{custom.timestamp}}",
+      "memberGroupId": "{{random.uuid}}",
+      "startDate": "{{custom.timestamp}}",
+      "unlimitedDate": "{{random.boolean}}"
+    },
+    {
+      "expireDate": "{{custom.timestamp}}",
+      "memberGroupId": "{{random.uuid}}",
+      "startDate": "{{custom.timestamp}}",
+      "unlimitedDate": "{{random.boolean}}"
+    }
+  ],
+  "groupId": "{{random.uuid}}",
+  "id": "{{random.uuid}}",
+  "lastLogin": 0,
+  "locale": "",
+  "name": "{{name.findName}}",
+  "password": "$2a$10$Gg/X2XY79ARQiMRjepvDF.lb2s.kfIwrlcBanzM.ZDk.jOUOo2cnK",
+  "recipientData": [
+    {
+      "address": {
+        "city": "{{address.city}}",
+        "country": "{{address.country}}",
+        "county": "{{address.county}}",
+        "postalCode": "{{address.zipCode}}",
+        "streetAddress": "{{address.streetAddress}}",
+        "yahooCode": {
+          "city": "{{address.city}}",
+          "country": "{{address.country}}",
+          "county": "{{address.county}}",
+          "street": "{{address.streetAddress}}"
+        }
+      },
+      "id": "{{random.uuid}}",
+      "mobile": "{{phone.phoneNumber}}",
+      "name": "{{name.findName}}",
+      "tel": "{{phone.phoneNumber}}",
+      "comment": "{{lorem.text}}"
+    }
+  ],
+  "storeId": "{{random.uuid}}",
+  "type": "{{custom.userType}}",
+  "updatedAt": "{{date.past}}",
+  "updatedBy": "{{random.uuid}}",
+  "updatedOn": "{{custom.timestamp}}",
+  "created_at": "{{date.past}}",
+  "move_house": 0,
+  "updated_at": "{{date.past}}",
+  "customInfo": [],
+  "currency": "{{finance.currencyCode}}",
+  "mobile": "{{phone.phoneNumber}}",
+  "platform": {
+    "facebook": {
+      "id": "{{custom.fbid}}"
+    }
+  },
+  "notification": {
+    "newsletters": {
+      "email": "{{random.boolean}}"
+    }
+  },
+  "tel": "{{phone.phoneNumber}}",
+  "tempInfo": {
+    "token": "{{custom.uuidNoDash}}",
+    "tokenTime": "{{custom.timestamp}}"
+  },
+  "isNonMember": "{{random.boolean}}",
+  "registeredCode": "2343"
+}
